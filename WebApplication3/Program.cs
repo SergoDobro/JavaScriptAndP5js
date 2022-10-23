@@ -22,7 +22,7 @@ var app = builder.Build();
 
 //    //await response.WriteAsync("Pages\\133049648840641034.bmp");
 //});
-string mainDirectory = "pages/quadro_boids";
+string mainDirectory = "pages/quadratic_tree_2";
 var files = Directory.GetFiles(mainDirectory);
 app.MapGet("/", async (context) =>
 {
